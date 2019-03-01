@@ -1,0 +1,53 @@
+h1, h2, span{
+	font-weight: bold;
+	text-align: center;
+}
+
+h1{
+	font-size: 30pt;
+}
+div.header, div.gameRules{
+	background-color: #b9b9e6;
+	border: solid 2px white;
+	padding: 10px;
+	margin: 10px;
+	width: 50%;
+}
+
+.numberToGet, .winsAndLosses{
+	background-color: #b9b9e6;
+	border: solid 2px white;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+div.row {
+	clear: left;
+}
+
+.column {
+	float: left;
+	width: 25%;
+	padding: 0px;
+  }
+  
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+.userTotal{
+	background-color: #b9b9e6;
+	border: solid 2px white;
+	padding: 10px;
+	margin: 10px;
+	width: 15%;
+	height: 60px;
+	vertical-align: text-top;
+}
+body{
+	background-image: url("../images/zeldaBackground.png")
+}
